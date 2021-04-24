@@ -13,7 +13,7 @@ module.exports = {
     },
   },
   //解决跨域
-  devServer: {
-    proxy: "http://47.96.92.141:8080/api",
-  },
+  // devServer: {
+  //   proxy: "http://47.96.92.141:8080",
+  // },
 };

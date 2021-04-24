@@ -10,6 +10,7 @@ Vue.use(ElementUI);
 import "./assets/iconfont/iconfont.css";
 //引入axios
 import axios from "axios";
+axios.defaults.baseURL = "/api";
 Vue.prototype.$axios = axios;
 axios.interceptors.request.use(
   (config) => {
